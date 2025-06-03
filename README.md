@@ -32,7 +32,12 @@ Advanced SQL analytics project using PostgreSQL to analyze over 1 million Apple 
        3. `sales(sale_date)`: Accelerated date-based queries for identifying trends and seasonal patterns.
 
     - ### Optimization Impact:
-      -
+    - #### Filtering by Product ID
+      - **Without Index:**
+      ![EXPLAIN Before Index](https://github.com/Sifat-1/Apple_Store_Sales_SQL_Analytics_Project/blob/main/pictures/Screenshot%202025-05-30%20183408.png)
+      - **With Index:**
+      ![EXPLAIN After Index](https://github.com/Sifat-1/Apple_Store_Sales_SQL_Analytics_Project/blob/main/pictures/QT2.png)
+
        
 
   
