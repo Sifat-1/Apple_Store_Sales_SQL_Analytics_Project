@@ -25,5 +25,12 @@ Advanced SQL analytics project using PostgreSQL to analyze over 1 million Apple 
  
      ### ERD Diagram:
     ![Database Schema](https://raw.githubusercontent.com/Sifat-1/Apple_Store_Sales_SQL_Analytics_Project/c72d9076ee3002fd5c8131d8950bb7a2646399ef/pictures/Screenshot%202025-05-30%20183408.png)
-- ### Database Schema: Built a 5-table relational database (sales, stores, products, warranty, category)  
+- ###  Performance Optimization:  Indexed and benchmarked queries for 90%+ speed improvements
+     - To handle millions of rows and ensure high performance, indexes were created on the following columns:
+       1. `sales(product_id)`: Improved query execution time for product-based sales analysis.
+       2. `sales(store_id)`: Enhanced performance when filtering sales by store.
+       3. `sales(sale_date)`: Accelerated date-based queries for identifying trends and seasonal patterns.
+
+
+
   
