@@ -31,6 +31,8 @@ Advanced SQL analytics project using PostgreSQL to analyze over 1 million Apple 
        2. `sales(store_id)`: Enhanced performance when filtering sales by store.
        3. `sales(sale_date)`: Accelerated date-based queries for identifying trends and seasonal patterns.
 
-
+    - ### Optimization Impact:
+      -
+       
 
   
