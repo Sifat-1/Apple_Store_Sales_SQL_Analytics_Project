@@ -12,4 +12,9 @@ Advanced SQL analytics project using PostgreSQL to analyze over 1 million Apple 
 
 ## Key Features
 - ### Database Schema: Built a 5-table relational database (sales, stores, products, warranty, category)
-   
+  - **Table :**
+   1. `stores`: Contains information about store locations, including `store_id`, `store_name`, `city`, and `country`.
+   2. `category`: Represents product categories, identified by `category_id` and `category_name`.
+   3. `products`: Stores product details like `product_id`, `product_name`, `category_id`, `launch_date`, and `price`.
+   4. `sales`: Tracks sales transactions with details like `sale_id`, `sale_date`, `store_id`, `product_id`, and `quantity`.
+   5. `warranty`: Logs warranty claims with `claim_id`, c`laim_date`, `sale_id`, and `repair_status`.
