@@ -11,4 +11,5 @@ Advanced SQL analytics project using PostgreSQL to analyze over 1 million Apple 
 -  Answered real-world business questions by writing advanced SQL queries that deliver actionable insights.
 
 ## Key Features
- ** A. Database Schema:** Built a 5-table relational database (sales, stores, products, warranty, category)
+- ### Database Schema: Built a 5-table relational database (sales, stores, products, warranty, category)
+   
