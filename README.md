@@ -10,4 +10,5 @@ Advanced SQL analytics project using PostgreSQL to analyze over 1 million Apple 
 -  Optimized SQL queries by strategically implementing indexing and conducting performance benchmarking to enhance efficiency.
 -  Answered real-world business questions by writing advanced SQL queries that deliver actionable insights.
 
-
+## Key Features
+A **Database Schema:** Built a 5-table relational database (sales, stores, products, warranty, category)
