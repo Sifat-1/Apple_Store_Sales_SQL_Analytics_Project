@@ -19,7 +19,7 @@ Advanced SQL analytics project using PostgreSQL to analyze over 1 million Apple 
    4. `sales`: Tracks sales transactions with details like `sale_id`, `sale_date`, `store_id`, `product_id`, and `quantity`.
    5. `warranty`: Logs warranty claims with `claim_id`, c`laim_date`, `sale_id`, and `repair_status`.
        - **Relationship :**
-         - sales links to stores and products
-         - products links to category
-         - warranty links to sales
+           - sales links to stores and products
+           - products links to category
+           - warranty links to sales
 
