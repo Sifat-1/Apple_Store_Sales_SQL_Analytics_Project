@@ -33,9 +33,9 @@ Advanced SQL analytics project using PostgreSQL to analyze over 1 million Apple 
 
     - ### Optimization Impact:
     - #### Filtering by Product ID
-    - **Without Index:**
-    - ![EXPLAIN Before Index](https://github.com/Sifat-1/Apple_Store_Sales_SQL_Analytics_Project/blob/main/pictures/query_time.png)
-    - **With Index:**
+    - #### Without Index:
+     ![EXPLAIN Before Index](https://github.com/Sifat-1/Apple_Store_Sales_SQL_Analytics_Project/blob/main/pictures/query_time.png)
+    - #### With Index:
      ![EXPLAIN After Index](https://github.com/Sifat-1/Apple_Store_Sales_SQL_Analytics_Project/blob/main/pictures/QT2.png)
 
        
