@@ -24,4 +24,4 @@ Advanced SQL analytics project using PostgreSQL to analyze over 1 million Apple 
            - warranty links to sales
  
      ### ERD Diagram:
-    ![Database Schema](https://github.com/Sifat-1/Apple_Store_Sales_SQL_Analytics_Project/blob/main/pictures/Screenshot%202025-05-30%20183408.png)
+    ![Database Schema](https://raw.githubusercontent.com/Sifat-1/Apple_Store_Sales_SQL_Analytics_Project/c72d9076ee3002fd5c8131d8950bb7a2646399ef/pictures/Screenshot%202025-05-30%20183408.png)
