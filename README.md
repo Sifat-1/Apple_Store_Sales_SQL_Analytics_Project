@@ -60,7 +60,7 @@ SELECT *
 FROM sales
 WHERE product_id = 'P-38'
 ```
-
-       
+## Business Problem Queries
+- <a href="https://github.com/Sifat-1/Apple_Store_Sales_SQL_Analytics_Project/blob/main/problem_solving.sql">**View all SQL queries for various business problem scenarios**</a>
 
   
