@@ -36,6 +36,11 @@ Advanced SQL analytics project using PostgreSQL to analyze over 1 million Apple 
            ![EXPLAIN Before Index](https://github.com/Sifat-1/Apple_Store_Sales_SQL_Analytics_Project/blob/main/pictures/query_time.png)
     - #### With Index:
      ![EXPLAIN After Index](https://github.com/Sifat-1/Apple_Store_Sales_SQL_Analytics_Project/blob/main/pictures/QT2.png)
+  ## SQL Queries and Analysis
+This project contains a variety of SQL queries structured around Exploratory Data Analysis (EDA) and Business Problem Solving. Some of the key SQL queries include:
+
+### Exploratory Data Analysis
+
 
        
 
