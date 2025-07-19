@@ -37,10 +37,29 @@ Advanced SQL analytics project using PostgreSQL to analyze over 1 million Apple 
     - #### With Index:
      ![EXPLAIN After Index](https://github.com/Sifat-1/Apple_Store_Sales_SQL_Analytics_Project/blob/main/pictures/QT2.png)
 ## SQL Queries and Analysis
-This project contains a variety of SQL queries structured around Exploratory Data Analysis (EDA) and Business Problem Solving. Some of the key SQL queries include:
-
+This project showcases a collection of advanced SQL queries designed to perform Exploratory Data Analysis (EDA) and solve business-critical problems. The queries address key metrics, including store performance, sales trends, warranty claim analysis, product lifecycle evaluation, and year-over-year growth across multiple dimensions.
 ### Exploratory Data Analysis
+```sql
 
+SELECT DISTINCT repair_status FROM warranty;
+SELECT DISTINCT store_name FROM stores;
+SELECT DISTINCT category_name FROM category;
+```
+
+Count of Total Sales:
+
+```sql
+SELECT COUNT(*) AS total_sales FROM sales;
+```
+Execution Plan Optimization: Using EXPLAIN ANALYZE to optimize query performance by creating necessary indexes:
+
+```sql
+CREATE INDEX sales_product_id ON sales(product_id);
+EXPLAIN ANALYZE
+SELECT *
+FROM sales
+WHERE product_id = 'P-38'
+```
 
        
 
